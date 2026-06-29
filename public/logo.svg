@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Soft, elegant circular background with a subtle cream warmth -->
+  <circle cx="50" cy="50" r="46" fill="#FDFBF7" stroke="#A9803C" stroke-width="1.5" stroke-opacity="0.2"/>
+  
+  <defs>
+    <!-- Warm golden-caramel gradient for the crochet flower petals -->
+    <linearGradient id="caramelGold" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8C5E24" />
+      <stop offset="50%" stop-color="#A9803C" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+    
+    <!-- Soft sage green gradient for the stem and leaf -->
+    <linearGradient id="sageLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8F9779" />
+      <stop offset="100%" stop-color="#6E7758" />
+    </linearGradient>
+  </defs>
+
+  <!-- Stem & Leaf -->
+  <path d="M50,48 C50,68 53,78 48,82" stroke="url(#sageLeaf)" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M50,65 C40,65 36,58 38,55 C42,54 48,58 50,65 Z" fill="url(#sageLeaf)" />
+  <path d="M50,56 C60,54 64,47 62,44 C58,43 52,49 50,56 Z" fill="url(#sageLeaf)" />
+
+  <!-- Outer Layer Petals (Stylized crochet loops) -->
+  <!-- Top Petal -->
+  <path d="M50,18 C44,18 41,27 50,34 C59,27 56,18 50,18 Z" fill="url(#caramelGold)" />
+  <!-- Bottom Petal -->
+  <path d="M50,50 C44,50 41,41 50,34 C59,41 56,50 50,50 Z" fill="url(#caramelGold)" />
+  <!-- Left Petal -->
+  <path d="M34,34 C34,28 43,25 50,34 C43,43 34,40 34,34 Z" fill="url(#caramelGold)" />
+  <!-- Right Petal -->
+  <path d="M66,34 C66,28 57,25 50,34 C57,43 66,40 66,34 Z" fill="url(#caramelGold)" />
+  
+  <!-- Diagonal Petals for a full crocheted bloom -->
+  <path d="M39,23 C34,20 41,13 50,34 C41,39 39,23 Z" fill="url(#caramelGold)" opacity="0.9" />
+  <path d="M61,23 C66,20 59,13 50,34 C59,39 61,23 Z" fill="url(#caramelGold)" opacity="0.9" />
+  <path d="M39,45 C34,48 41,55 50,34 C41,29 39,45 Z" fill="url(#caramelGold)" opacity="0.9" />
+  <path d="M61,45 C66,48 59,55 50,34 C59,29 61,45 Z" fill="url(#caramelGold)" opacity="0.9" />
+
+  <!-- Center Crochet Core (Swirl representing yarn/knit structure) -->
+  <circle cx="50" cy="34" r="8" fill="#F4E6D6" stroke="#8C5E24" stroke-width="1.5" />
+  <path d="M50,30 A4,4 0 0,1 54,34 A4,4 0 0,1 50,38 A2,2 0 0,1 48,36 A1,1 0 0,1 50,35" stroke="#A9803C" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+</svg>

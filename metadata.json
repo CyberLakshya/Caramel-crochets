@@ -1,0 +1,6 @@
+{
+  "name": "Caramel Crochets",
+  "description": "Luxury Handmade Crochet Flowers & Bouquets. Forever Flowers, Forever Feelings. Handcrafted with love in Himachal Pradesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
